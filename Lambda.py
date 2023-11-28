@@ -2,7 +2,7 @@ example1 = lambda : print ('Hello')
 example1()
 example2 = lambda x, y : x + y
 print (example2(2,5))
-example3 = lambda x, y, z: x + y - x
+example3 = lambda x, y, z: x + y - z
 print (example3(y = 4, z = 2, x = 3))
 example4 = lambda *args : sum(args)
 print (example4(5, 2, 5, 7, 6))
