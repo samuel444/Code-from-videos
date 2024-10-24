@@ -1,1 +1,19 @@
-
+<html>
+<h1>Welcome to the names page!</h1>
+<h3>The list of names I receive:</h3>
+<p>{{names}}</p>
+<h3>The list of names outside the list:</h3>
+<p>{% for name in names %}
+    {{name}}</br>
+{% endfor %}</p>
+<h3>Using upper operation on the names:</h3>
+<p>{% for name in names %}
+    {{name | upper}}</br>
+{% endfor %}</p>
+<h3>Using if to check if John is in the names:</h3>
+<p>{% if 'John' in names %}
+    John is in the list of names
+    {% else %}
+    John is not in the list of names
+{% endif %}</p>
+</html>
