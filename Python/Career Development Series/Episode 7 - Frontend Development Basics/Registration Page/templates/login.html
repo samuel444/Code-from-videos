@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <h3 class="container my-5">Login:</h3>
+        <div class="container mt-5">
+            <form>
+                <h6>Username:</h6>
+                <input type="text" id="username" class="form-control"><br>
+                <h6>Password:</h6>
+                <input type="password" id="password" class="form-control"><br>
+                <input type="checkbox" onclick="LpasswordShow()">Show Password<br>
+                <input type="button" onclick="buttonClicked()" value="Click Here">
+                <p id="message" class="mt-3"></p> 
+            </form>
+            <a href="/signup" class="active">Haven't got an account? Sign Up!</a>
+        </div>
+        <script src="static/script.js"></script>
+    </body>
+</html>
