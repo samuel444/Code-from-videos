@@ -1,0 +1,38 @@
+p {
+    color: blue; font-size: 40px;
+}
+
+h1 { 
+    color: orange ;
+}
+
+h2 { 
+    color: green ; padding: 10%;
+}
+
+h3 { 
+    color: pink ; 
+}
+h6 {
+    color: orange;
+}
+
+li.largePinkBrush {
+    color:pink ; font-size: 80px; font-family:'Brush Script MT';
+}
+
+#myButton {
+    background-color: blue;
+}
+
+a:hover {
+    color:green
+}
+
+p::first-letter {
+    color:orange ; font-size: 20px;
+}
+
+li::marker {
+    content:'-->'
+}
